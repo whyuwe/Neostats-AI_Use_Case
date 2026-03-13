@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# API keys — never commit
+.env
+secrets.toml
+
+# FAISS vectorstore (large binary files)
+data/vectorstore/*.faiss
+data/vectorstore/*.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db

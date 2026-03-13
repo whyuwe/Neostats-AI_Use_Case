@@ -1,0 +1,2 @@
+# This directory is auto-created when you build a vectorstore via the RAG Setup page.
+# The FAISS index files will be saved here for persistence across sessions.

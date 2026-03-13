@@ -1,0 +1,27 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── LangChain ─────────────────────────────────────────────────────────────────
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+
+# ── LLM Providers ─────────────────────────────────────────────────────────────
+langchain-openai>=0.1.0          # OpenAI GPT models
+langchain-groq>=0.1.0            # Groq (Llama, Mixtral)
+langchain-google-genai>=1.0.0    # Google Gemini
+
+# ── Embeddings ────────────────────────────────────────────────────────────────
+sentence-transformers>=2.7.0     # Local HuggingFace embeddings (all-MiniLM-L6-v2)
+faiss-cpu>=1.8.0                 # Vector store (CPU version)
+
+# ── Document Loaders ──────────────────────────────────────────────────────────
+pypdf>=4.0.0                     # PDF loading
+docx2txt>=0.8                    # DOCX loading
+
+# ── Web Search ────────────────────────────────────────────────────────────────
+tavily-python>=0.3.0             # Tavily Search API (primary)
+duckduckgo-search>=6.0.0         # DuckDuckGo fallback (no API key needed)
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0             # Optional: load .env file for local dev
